@@ -14,6 +14,7 @@ TECHNOLOGIES :
     react-burger-menu: 3.0.2
     react-router-dom: 5.2.0
     react-router-hash-link: 2.3.1
+    react-hook-form": 6.15.1
     styled-components": 5.2.1
     styled-reset: 4.3.3
 
