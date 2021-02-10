@@ -6,6 +6,7 @@ export default function Contact() {
   const { register, handleSubmit, errors } = useForm();
   const onSubmit = (data) => console.log(data);
   console.log(errors);
+  
   return (
     <div>
       <H1>CONTACT US</H1>

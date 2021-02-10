@@ -8,6 +8,7 @@ import Home from "./components/home/index";
 import { AppStyle } from "./style";
 import ArtistPage from "./components/artists/artistPage/index";
 
+
 function App() {
   return (
     <AppStyle>
