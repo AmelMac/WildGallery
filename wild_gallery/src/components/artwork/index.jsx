@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Title } from "./style";
+import { Title, Img, Liste, H2, Li } from "./style";
 import axios from "axios";
 
 
@@ -20,15 +20,16 @@ export default function Artwork() {
     <div>
       <Title>ARTWORKS</Title>
       <div>
-        <ul>
+        <Liste>
           {data.map(item =>(
-            <li key={item.id}>
-              <p>{item.title}</p>
+            <Li key={item.id}>
+              <Img src={item.image} alt = "Image of the artwork"/>
+              <H2>{item.title}</H2>
               <p>{item.name}</p>
-              <img src={item.image} alt = "Image of the artwork"/>
-            </li>
+              
+            </Li>
           ))}
-        </ul>
+        </Liste>
       </div>
     </div>
   );
